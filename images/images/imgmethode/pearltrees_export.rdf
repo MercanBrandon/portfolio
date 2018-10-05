@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>  
+
+<!--
+************************************************************************************************************
+* This is a Pearltrees export of your account.
+* 
+* You are the full owner of the data you have stored in Pearltrees.
+* This RDF file is your Pearltrees account turned into a W3C-compliant format.
+* 
+* To developers:
+* - The author is identified by a FOAF profile with a SIOC account.
+* - The most important classes are "pt:Tree" and "pt:PagePearl".
+* - "pt:Pearl" refers to its parent tree with the "pt:parentTree" property.
+* - "pt:leftPos" and "pt:rightPos" are nested set values (see "http://en.wikipedia.org/wiki/Nested_set_model") 
+* - Most properties and classes are not stable.
+* More to come:
+* - Full documentation.
+* - Publishing schema and OWL descriptions.
+* - Dereferenceable URIs.
+* Interested in more RDF data? Any suggestion? Send us an email at <participation@pearltrees.net>!
+************************************************************************************************************
+-->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:dcterms="http://purl.org/dc/elements/1.1/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/" 
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:sioc="http://rdfs.org/sioc/ns#"
+         xmlns:pt="http://www.pearltrees.com/rdf/0.1/#">
+  
+<foaf:Person rdf:about="http://www.pearltrees.com/thebrandon#foaf">
+   <foaf:name>Brandon</foaf:name>
+   <foaf:nick>thebrandon</foaf:nick>
+   <foaf:mbox_sha1sum>161e4a96f8e897d91948178a336da9e98c125dfd</foaf:mbox_sha1sum>
+   <sioc:UserAccount rdf:resource="http://www.pearltrees.com/thebrandon#sioc" />
+</foaf:Person>
+
+<sioc:UserAccount rdf:about="http://www.pearltrees.com/thebrandon#sioc">
+   <pt:rootTree rdf:resource="http://www.pearltrees.com/thebrandon" />
+   <sioc:account_of rdf:resource="http://www.pearltrees.com/thebrandon#foaf" />
+</sioc:UserAccount>
+	 
+<pt:Tree rdf:about="http://www.pearltrees.com/thebrandon">
+   <dcterms:title><![CDATA[thebrandon]]></dcterms:title>
+   <dcterms:creator rdf:resource="http://www.pearltrees.com/thebrandon#sioc" />
+   <pt:treeId>15599558</pt:treeId>
+   <pt:assoId>15599558</pt:assoId>
+   <pt:lastUpdate>2017-03-14T16:50:28</pt:lastUpdate>
+   <pt:privacy>0</pt:privacy>
+</pt:Tree>
+
+<pt:RootPearl rdf:about="http://www.pearltrees.com/thebrandon#rootPearl">
+   <dcterms:title><![CDATA[thebrandon]]></dcterms:title>
+   <pt:parentTree rdf:resource="http://www.pearltrees.com/thebrandon" />
+   <pt:inTreeSinceDate>2016-03-12T13:52:39</pt:inTreeSinceDate>
+   <pt:leftPos>1</pt:leftPos>
+   <pt:rightPos>6</pt:rightPos>
+</pt:RootPearl>
+
+<pt:AliasPearl rdf:about="http://www.pearltrees.com/thebrandon#item198158096&amp;show=item,198158096">
+   <dcterms:title><![CDATA[5G]]></dcterms:title>
+   <rdfs:seeAlso rdf:resource="http://www.pearltrees.com/gthiot/5g/id15950793" />
+   <pt:parentTree rdf:resource="http://www.pearltrees.com/thebrandon" />
+   <pt:inTreeSinceDate>2017-03-14T16:50:28</pt:inTreeSinceDate>
+   <pt:leftPos>2</pt:leftPos>
+   <pt:rightPos>3</pt:rightPos>
+</pt:AliasPearl>
+
+<pt:AliasPearl rdf:about="http://www.pearltrees.com/thebrandon#item198157943&amp;show=item,198157943">
+   <dcterms:title><![CDATA[France Très Haut Débit]]></dcterms:title>
+   <rdfs:seeAlso rdf:resource="http://www.pearltrees.com/pburguet/france-tres-haut-debit/id14254295" />
+   <pt:parentTree rdf:resource="http://www.pearltrees.com/thebrandon" />
+   <pt:inTreeSinceDate>2017-03-14T16:48:36</pt:inTreeSinceDate>
+   <pt:leftPos>4</pt:leftPos>
+   <pt:rightPos>5</pt:rightPos>
+</pt:AliasPearl>
+
+<pt:Tree rdf:about="http://www.pearltrees.com/thebrandon/thebrandon-drop-zone/id15599559">
+   <dcterms:title><![CDATA[thebrandon's drop zone]]></dcterms:title>
+   <dcterms:creator rdf:resource="http://www.pearltrees.com/thebrandon#sioc" />
+   <pt:treeId>15599559</pt:treeId>
+   <pt:assoId>15599558</pt:assoId>
+   <pt:lastUpdate>2017-04-05T04:27:16</pt:lastUpdate>
+   <pt:privacy>0</pt:privacy>
+</pt:Tree>
+
+<pt:RootPearl rdf:about="http://www.pearltrees.com/thebrandon#rootPearl">
+   <dcterms:title><![CDATA[thebrandon's drop zone]]></dcterms:title>
+   <pt:parentTree rdf:resource="http://www.pearltrees.com/thebrandon/thebrandon-drop-zone/id15599559" />
+   <pt:inTreeSinceDate>2016-03-12T13:52:39</pt:inTreeSinceDate>
+   <pt:leftPos>1</pt:leftPos>
+   <pt:rightPos>2</pt:rightPos>
+</pt:RootPearl>
+
+
+</rdf:RDF>
