@@ -1,11 +1,33 @@
 html {
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-color: Black;
 }
 
-header #header {
-  background-color: grey;
+div.bg-img{
+  background-image: url('../img/IMG_20180519_194140.jpg');
+  background-size: cover ;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+
+div.logo{
+  position: relative;
+  padding-left: 60%;
+  padding-top: 25%;
+}
+
+header {
+  height: 400px;
+  background-image: url('../img/IMG_20180519_194140.jpg');
+  background-size: cover;
+  /*filter: blur(4px);*/
+  background-color: white;
 }
 
 /*# sourceMappingURL=main.css.map */
